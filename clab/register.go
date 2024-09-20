@@ -17,6 +17,7 @@ import (
 	fortinet_fortigate "github.com/srl-labs/containerlab/nodes/fortinet_fortigate"
 	generic_vm "github.com/srl-labs/containerlab/nodes/generic_vm"
 	host "github.com/srl-labs/containerlab/nodes/host"
+	"github.com/srl-labs/containerlab/nodes/huawei_n40e"
 	ipinfusion_ocnos "github.com/srl-labs/containerlab/nodes/ipinfusion_ocnos"
 	k8s_kind "github.com/srl-labs/containerlab/nodes/k8s_kind"
 	keysight_ixiacone "github.com/srl-labs/containerlab/nodes/keysight_ixiacone"
@@ -93,4 +94,5 @@ func (c *CLab) RegisterNodes() {
 	c8000.Register(c.Reg)
 	border0.Register(c.Reg)
 	k8s_kind.Register(c.Reg)
+	huawei_n40e.Register(c.Reg)
 }

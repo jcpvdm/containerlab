@@ -99,6 +99,7 @@
                         "cisco_cat9kv",
                         "cvx",
                         "cumulus_cvx",
+                        "huawei_n40e",
                         "openbsd",
                         "freebsd",
                         "generic_vm",
